@@ -1,0 +1,26 @@
+*{
+    font-family: monospace,sans-serif;
+}
+
+.list-category{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aquamarine;
+
+}
+
+.list-item{
+    font-size: 1.5em;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+.list-item li:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}

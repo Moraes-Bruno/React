@@ -1,0 +1,12 @@
+.student{
+    font-family: monospace,sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+
+}
+
+.student p{
+    margin: 0;
+}
