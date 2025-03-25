@@ -1,0 +1,95 @@
+html,body{
+    height: 100%;
+}
+
+body {
+  background-image: url("./assets/japan.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.to-do-list {
+  font-family: monospace, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-button {
+  margin-left: 10px;
+  background-color: rgb(91, 241, 91);
+}
+
+.add-button:hover {
+  background-color: rgb(83, 211, 83);
+}
+
+.delete-button {
+  background-color: rgb(253, 34, 34);
+}
+
+.delete-button:hover {
+  background-color: rgb(228, 33, 33);
+}
+
+.move-button {
+  background-color: rgb(102, 102, 243);
+}
+
+.move-button:hover {
+  background-color: rgb(91, 91, 187);
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.247);
+  border-radius: 5px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgba(236, 236, 236, 0.842);
+  margin-bottom: 10px;
+  border: 3px solid rgba(218, 218, 218, 0.822);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 800px;
+  max-width: 1200;
+}
+
+.text {
+  flex: 1;
+}
+
+.delete-button,
+.move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
