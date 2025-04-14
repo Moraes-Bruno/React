@@ -1,9 +1,13 @@
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import About from "./pages/About";
-import Contacts from "./pages/Contacts";
+//import Contacts from "./pages/Contacts";
 import RootLayout from "./layout/RootLayout"
 import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom";
+import ContactLayout from "./layout/ContactLayout";
+import ContactInfo from "./components/ContactInfo";
+import ContactForm from "./components/ContactForm";
+import NotFound from "./components/NotFound";
 
 function App() {
 
@@ -13,7 +17,11 @@ function App() {
           <Route index element={<Home />} />
           <Route path="products" element={<Products />} />
           <Route path="about" element={<About />} />
-          <Route path="contacts" element={<Contacts />} />
+          <Route path="contacts" element={<ContactLayout />}>
+            <Route path="info" element={<ContactInfo/>} />
+            <Route path="form" element={<ContactForm/>} />
+          </Route>
+          <Route path="*" element={<NotFound/>}/>
       </Route>
     )
   )
