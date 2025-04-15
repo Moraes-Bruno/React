@@ -15,6 +15,7 @@ function NavBar() {
         <NavLink to='/products'><li>Produtos</li></NavLink>
         <NavLink to='/about'><li>Sobre</li></NavLink>
         <NavLink to='/contacts'><li>Contato</li></NavLink>
+        <NavLink to='/jobs'><li>Vagas</li></NavLink>
       </ul>
       <button onClick={() => navigate('/about')}>Fazer Login</button>
     </div>

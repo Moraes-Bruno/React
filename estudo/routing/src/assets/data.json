@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Desenvolvedor React Junior",
+      "salary": 2000,
+      "location": "São Paulo"
+    },
+    {
+      "id": 2,
+      "title": "Estagio Desenvolvimento FullStack",
+      "salary": 1400,
+      "location": "Campinas"
+    },
+    {
+      "id": 3,
+      "title": "Designer Grafico",
+      "salary": 4000,
+      "location": "São Paulo"
+    },
+    {
+      "id": 4,
+      "title": "Desenvolvedor C# Senior",
+      "salary": 30000,
+      "location": "Campinas"
+    },
+    {
+      "id": 5,
+      "title": "Contador",
+      "salary": 15000,
+      "location": "Campinas"
+    },
+    {
+      "id": 6,
+      "title": "Desenvolvedor Senior Cobol (60+ anos de Experiencia)",
+      "salary": 5000000,
+      "location": "São Paulo"
+    }
+  ]
+}
